@@ -7,9 +7,9 @@ Essa biblioteca irá ajudar a gerar arquivos de log quando aplicação estiver e
 import("github.com/DuxxSolucoes/go-log-file")
 
 func main() {
-  # Production
+  // Production
   logfile.LogFileDay("Error loading", true)
-  # Development
+  // Development
   logfile.LogFileDay("Error loading", false)
 }
 ```
