@@ -8,10 +8,10 @@ import (
 )
 
 func main() {
-	CreateFileDay("Olá", true)
+	LogFileDay("Olá", true)
 }
 
-func CreateFileDay(message string, production bool) {
+func LogFileDay(message string, production bool) {
 	if production {
 		f, err := os.OpenFile(fmt.Sprint(time.Now().Format("20060102"), ".log"), os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 		if err != nil {
