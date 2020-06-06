@@ -1,3 +1,4 @@
+![alt tag](logo.png)
 # LOGFILE
 
 Essa biblioteca irá ajudar a gerar arquivos de log quando aplicação estiver em produção.
